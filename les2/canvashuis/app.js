@@ -1,6 +1,7 @@
 class App
 {
     runApplication()
+
     {
         console.log("hello world!");
         let canvas = document.getElementById("canvasId")
@@ -73,7 +74,3 @@ class App
         g.stroke();
     }
 }
-
-let app = new App();
-app.runApplication();
-
