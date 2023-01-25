@@ -168,6 +168,15 @@ class App{
         g.fill();
 
 
+        g.fillStyle = "purple"
+        g.beginPath();
+        g.moveTo(500, 30);
+        g.lineTo(540, 100);
+        g.lineTo(500, 100);
+        g.lineTo(460, 100);
+        g.closePath();
+        g.fill();
+
     
     
     }
